@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Protest+Riot&display=swap');
+.body{
+    height: 1300px;
+    background-color: #898add;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+    
+}
+.about{
+    padding: 25px;
+    margin:35px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about h1{
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+}
+.faq{
+    padding: 25px;
+    margin:25px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.faq h1{
+    padding: 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+}
+@media screen and (max-width:1050px) {
+    .body{
+        height: 1600px;
+    }
+}
+@media screen and (max-width:850px) {
+    .body{
+        height: 1700px;
+    }
+}
+@media screen and (max-width:650px) {
+    .body{
+        height: 2000px;
+    }
+}

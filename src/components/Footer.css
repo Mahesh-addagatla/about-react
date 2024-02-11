@@ -1,0 +1,41 @@
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  h4 {
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  ul li i{
+    margin:3px
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  
+    .col-lg-4 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
