@@ -3,6 +3,7 @@ import "./Navbarstyle.css";
 import { Menuitems } from "./Menuitems";
 import {Link} from "react-router-dom";
 
+
 class Navbar extends Component {
     state={clicked:false};
     handleClick=()=>{
@@ -10,9 +11,11 @@ class Navbar extends Component {
     }
     render() {
         return (
-            <div className="nav">
+            <div className="nav" style={{position:' sticky',
+                top:'0'}}>
             <nav className="Navbaritems">
-                <h1 className="navbar-logo">Hire-A-Hand</h1>
+                
+                <h1 className="navbar-logo">Hire-a-Hand</h1>
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked?"fas fa-times":"fas fa-bars"}></i>
                 </div>
@@ -22,7 +25,7 @@ class Navbar extends Component {
                             <Link className={item.cName} to={item.url}><i className={item.icon}></i>{item.title}</Link>
                         </li>
                     ))}
-                    <button>Sign out</button>
+                    
                 </ul>
             </nav>
         </div>

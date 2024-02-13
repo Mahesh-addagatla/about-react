@@ -24,10 +24,10 @@ export const Menuitems=[
         icon:"fa-solid fa-address-book"
     },
     {
-        title : "Sign out",
-        url : "/login",
-        cName : "nav-links-mobile",
-        icon:"fa-solid fa-address-book"
+        title : "Login",
+        url : "/signup",
+        cName : "nav-links",
+        icon:"fa-solid fa-address-card"
     },
 
 ]
