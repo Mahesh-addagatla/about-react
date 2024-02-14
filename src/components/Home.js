@@ -6,7 +6,6 @@ import png1 from "./png1.png";
 import png2 from "./png2.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import Footer from "./Footer"
-import About from "./About"
 
 const Home = () => {
   const workInfoData = [
@@ -29,6 +28,9 @@ const Home = () => {
   const handleLearnMore = () => {
     window.location.href = '/about'; // Redirect using window.location
   };
+  const GetStarted = () => {
+    window.location.href = 'https://hack-a-tron-igqd.vercel.app/signup'; // Redirect using window.location
+  };
   return (
     <>
     <div><Navbar /></div>
@@ -45,7 +47,7 @@ const Home = () => {
           <p className="primary-text" >
           Freelancing offers freedom and flexibility, allowing individuals to work on diverse projects from anywhere. It provides opportunities for higher earnings and personal growth, but requires self-discipline and proactive management of workload and finances.
           </p><br /><br />
-          <button className="secondary-button">
+          <button className="secondary-button" onClick={GetStarted}>
             Get Started <FiArrowRight />{" "}
           </button>
         </div>
