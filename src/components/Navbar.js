@@ -9,6 +9,11 @@ class Navbar extends Component {
     handleClick=()=>{
         this.setState({clicked:!this.state.clicked})
     }
+    handleContactClick = (event) => {
+        event.preventDefault();
+        const footer = document.getElementById("footer");
+        footer.scrollIntoView({ behavior: "smooth" });
+    };
     render() {
         return (
             <div className="nav" style={{position:' sticky',
@@ -22,7 +27,7 @@ class Navbar extends Component {
                 <ul className={this.state.clicked?"nav-menu active":"nav-menu "}>
                     {Menuitems.map((item, index) => (
                         <li key={index} className="li">
-                            <Link className={item.cName} to={item.url}><i className={item.icon}></i>{item.title}</Link>
+                            <Link className={item.cName} to={item.url} onClick={item.title === "Contact" ? this.handleContactClick : null}><i className={item.icon}></i>{item.title}</Link>
                         </li>
                     ))}
                     

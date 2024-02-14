@@ -20,7 +20,7 @@ export const Menuitems=[
     },
     {
         title : "Contact",
-        url : "/#footer",
+        url : "#footer",
         cName : "nav-links",
         icon:"fa-solid fa-address-book"
     },

@@ -8,7 +8,7 @@ import logo from "./logo.png"
 
 function Footer() {
   return (
-    <footer>
+    <footer id="footer">
 <div class="footer">
   <div className="logo">
     <img className="footerimg" src={logo} alt=""></img>
