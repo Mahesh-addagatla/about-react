@@ -23,6 +23,7 @@
   
   ul li {
     margin-bottom: 10px;
+    cursor: pointer;
   }
   ul li i{
     margin:3px

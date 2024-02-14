@@ -1,13 +1,14 @@
+
 export const Menuitems=[
     {
         title : "Home",
-        url : "/Home",
+        url : "/",
         cName : "nav-links",
         icon : "fa-solid fa-house-user"
     },
     {
         title : "About",
-        url : "/",
+        url : "/About",
         cName : "nav-links",
         icon : "fa-solid fa-circle-info"
     },
@@ -19,7 +20,7 @@ export const Menuitems=[
     },
     {
         title : "Contact",
-        url : "/Contact",
+        url : "#footer",
         cName : "nav-links",
         icon:"fa-solid fa-address-book"
     },

@@ -12,15 +12,15 @@ function Footer() {
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
             <h4>Contact Us</h4>
-            <p>Email: example@example.com</p>
-            <p>Phone: 123-456-7890</p>
+            <p><b>Email:</b> example@example.com</p>
+            <p><b>Phone:</b> 123-456-7890</p>
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12">
             <h4>Follow Us</h4>
             <ul className="list-unstyled">
-              <li><i class="fa-brands fa-facebook"></i>Facebook</li>
-              <li><i class="fa-brands fa-twitter"></i>Twitter</li>
-              <li><i class="fa-brands fa-instagram"></i>Instagram</li>
+              <li><i className="fa-brands fa-facebook"></i>Facebook</li>
+              <li><i className="fa-brands fa-twitter"></i>Twitter</li>
+              <li><i className="fa-brands fa-instagram"></i>Instagram</li>
             </ul>
           </div>
         </div>
