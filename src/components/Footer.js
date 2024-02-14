@@ -1,39 +1,35 @@
 import React from "react";
-import "./Footer.css";
+// import { BsTwitter } from "react-icons/bs";
+// import { SiLinkedin } from "react-icons/si";
+// import { BsYoutube } from "react-icons/bs";
+// import { FaFacebookF } from "react-icons/fa";
+import "./Footer.css"
+import logo from "./logo.png"
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-12">
-            <h4>Hire-A-Hand</h4>
-            <p>where freelancers and businesses unite to create exceptional work. We provide a platform for talented individuals to showcase their skills and for clients to find the perfect match for their projects. Join our community and unlock the potential of freelancing today.</p><br />
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-12">
-            <h4>Contact Us</h4>
-            <p><b>Email:</b> example@example.com</p>
-            <p><b>Phone:</b> 123-456-7890</p>
-          </div>
-          <div className="col-lg-4 col-md-12 col-sm-12">
-            <h4>Follow Us</h4>
-            <ul className="list-unstyled">
-              <li><i className="fa-brands fa-facebook"></i>Facebook</li>
-              <li><i className="fa-brands fa-twitter"></i>Twitter</li>
-              <li><i className="fa-brands fa-instagram"></i>Instagram</li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <div className="row">
-          <div className="col-sm">
-            <p className="text-center">
-              &copy; {new Date().getFullYear()} Your Company | All rights reserved
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <footer>
+<div class="footer">
+  <div className="logo">
+    <img className="footerimg" src={logo} alt=""></img>
+  </div>
+<div class="row">
+HIRE-A-HAND
+
+<ul>
+<li><a href="#">Contact us</a></li>
+<li><a href="#">GDSC</a></li>
+<li><a href="#">Vishnu Institute of Technology</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+<li><a href="#">Career</a></li>
+</ul>
+</div>
+
+<div class="abouthim" style={{fontFamily:'Play',fontSize:'0.9em',marginTop:'70px',color:'grey'}}>
+We are the dedicated team, 'Init-to Winit,' passionately collaborating on the innovative 'Hire-a-Hand' project at Vishnu Institute of Technology. Committed to excellence, our diverse skills and shared vision drive us to create a platform that seamlessly connects skilled individuals with those seeking assistance. 
+</div>
+</div>
+</footer>
   );
 }
 

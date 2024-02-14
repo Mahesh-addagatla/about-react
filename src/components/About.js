@@ -35,9 +35,11 @@ function About() {
                     <div className="ans"><p>We recommend using our platform's built-in payment system to ensure secure transactions. Additionally, consider working with clients who have positive reviews and a verified payment history.</p></div>
                 
                 </div>
-            </div>
-            <div id="footer">
+                </div>
+                <div id="footer">
             <Footer /></div>
+           
+           
         </>
     );
 }

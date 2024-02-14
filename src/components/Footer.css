@@ -1,42 +1,77 @@
+.footer{
+  display:flex;
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+border-top:1px solid black;
+width:95%;
+margin-left: 30px;
+}
+.footerimg{
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 600px;
+  height: auto;
+}
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:40px;
+padding-top: 15px;
+padding-bottom: 0px;
+color:gray;
+font-size:0.9em;
+font-family: 'Play', sans-serif;
+text-align: left;
+padding-left: 140px;
+}
+.abouthim{
+font-family: 'Play', sans-serif;
+text-align: left;
+color:grey;
 
-@import '~@fortawesome/fontawesome-free/css/all.css';
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    border-radius: 0 0 20px 20px;
-  }
+
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+  text-align: left;
   
-  .container {
-    width: 90%;
-    margin: auto;
-  }
-  
-  h4 {
-    color: #fff;
-  }
-  
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
-  ul li i{
-    margin:3px
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      width: 100%;
-    }
-  
-    .col-lg-4 {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  }
-  
+list-style-type: none;
+margin:20px 0;
+
+}
+
+.footer .row a i{
+font-size:2em;
+
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}

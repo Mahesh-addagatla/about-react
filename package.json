@@ -6,6 +6,7 @@
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@fortawesome/fontawesome-free": "^6.5.1",
+    "@material-tailwind/react": "^2.1.9",
     "@mui/icons-material": "^5.15.8",
     "@mui/material": "^5.15.7",
     "@testing-library/jest-dom": "^5.17.0",

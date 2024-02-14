@@ -20,14 +20,14 @@ export const Menuitems=[
     },
     {
         title : "Contact",
-        url : "#footer",
+        url : "/#footer",
         cName : "nav-links",
         icon:"fa-solid fa-address-book"
     },
     {
-        title : "Sign out",
-        url : "/login",
-        cName : "nav-links-mobile",
+        title : "Login",
+        url : "/signup",
+        cName : "nav-links",
         icon:"fa-solid fa-address-book"
     },
 
