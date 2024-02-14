@@ -6,7 +6,8 @@ import "./About.css"
 function About() {
     return (
         <>
-            <div className="nav"><Navbar /></div>
+            <div className="nav" style={{position:' sticky',
+                top:'0'}}><Navbar /></div>
             <div className="body">
                 <div className="about">
                 <center><h1>About Us</h1></center>

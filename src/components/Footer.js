@@ -25,7 +25,7 @@ HIRE-A-HAND
 </ul>
 </div>
 
-<div class="abouthim" style={{fontFamily:'Play',fontSize:'0.9em',marginTop:'70px',color:'grey'}}>
+<div class="abouthim" style={{fontFamily:'Play',fontSize:'1rem',marginTop:'70px',color:'grey',marginRight:'60px'}}>
 We are the dedicated team, 'Init-to Winit,' passionately collaborating on the innovative 'Hire-a-Hand' project at Vishnu Institute of Technology. Committed to excellence, our diverse skills and shared vision drive us to create a platform that seamlessly connects skilled individuals with those seeking assistance. 
 </div>
 </div>

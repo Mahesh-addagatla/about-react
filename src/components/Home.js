@@ -31,7 +31,7 @@ const Home = () => {
   };
   return (
     <>
-    <Navbar />
+    <div><Navbar /></div>
     <div className="home-container">
       
       <div className="home-banner-container">
@@ -65,7 +65,7 @@ const Home = () => {
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading" style={{marginLeft:"13%"}}>Know About Us</p>
-        <h1 className="primary-heading" style={{marginLeft:"13%"}}>
+        <h1 className="primary-aboutheading" style={{marginLeft:"13%"}}>
         Freelancing: where passion meets profession, and freedom reigns supreme.
         </h1>
         <p className="primary-text" style={{marginLeft:"13%"}}>
