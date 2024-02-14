@@ -28,11 +28,7 @@ export const Menuitems=[
         title : "Login",
         url : "/signup",
         cName : "nav-links",
-<<<<<<< HEAD
         icon:"fa-solid fa-address-book"
-=======
-        icon:"fa-solid fa-address-card"
->>>>>>> 0510b64cb7cc33f41554ec0a6c249a23421b40f4
     },
 
 ]
